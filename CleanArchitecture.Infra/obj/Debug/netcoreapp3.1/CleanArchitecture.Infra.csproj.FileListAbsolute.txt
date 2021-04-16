@@ -1,0 +1,12 @@
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Infra\bin\Debug\netcoreapp3.1\CleanArchitecture.Infra.deps.json
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Infra\bin\Debug\netcoreapp3.1\CleanArchitecture.Infra.dll
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Infra\bin\Debug\netcoreapp3.1\CleanArchitecture.Infra.pdb
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Infra\bin\Debug\netcoreapp3.1\CleanArchitecture.Core.dll
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Infra\bin\Debug\netcoreapp3.1\CleanArchitecture.Core.pdb
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Infra\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.csprojAssemblyReference.cache
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Infra\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.AssemblyInfoInputs.cache
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Infra\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.AssemblyInfo.cs
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Infra\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.csproj.CoreCompileInputs.cache
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Infra\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.csproj.CopyComplete
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Infra\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.dll
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Infra\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.pdb

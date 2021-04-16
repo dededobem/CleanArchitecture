@@ -1,0 +1,9 @@
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Core\bin\Debug\netcoreapp3.1\CleanArchitecture.Core.deps.json
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Core\bin\Debug\netcoreapp3.1\CleanArchitecture.Core.dll
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Core\bin\Debug\netcoreapp3.1\CleanArchitecture.Core.pdb
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Core\obj\Debug\netcoreapp3.1\CleanArchitecture.Core.AssemblyInfoInputs.cache
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Core\obj\Debug\netcoreapp3.1\CleanArchitecture.Core.AssemblyInfo.cs
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Core\obj\Debug\netcoreapp3.1\CleanArchitecture.Core.csproj.CoreCompileInputs.cache
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Core\obj\Debug\netcoreapp3.1\CleanArchitecture.Core.dll
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Core\obj\Debug\netcoreapp3.1\CleanArchitecture.Core.pdb
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Core\obj\Debug\netcoreapp3.1\CleanArchitecture.Core.csprojAssemblyReference.cache
