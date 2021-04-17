@@ -13,17 +13,14 @@ namespace CleanArchitecture.Tests
         {
             
             var parkingLotRepositoryMemory = new ParkingLotRepositoryMemory();
-            var parkedCarRepositoryMemory = new ParkedCarRepositoryMemory();
-            var enterParkingLot = new EnterParkingLot(parkingLotRepositoryMemory, parkedCarRepositoryMemory);
+            var enterParkingLot = new EnterParkingLot(parkingLotRepositoryMemory);
             var getParkingLot = new GetParkingLot(parkingLotRepositoryMemory);
                         
             var parkingLotBeforeEnter = getParkingLot.Execute("shopping");
-            Assert.Equal(0, parkingLotBeforeEnter.occupiedSpaces);
-
-            var parkingLot = await enterParkingLot.Execute("shopping", "MMM-0001", DateTime.Now);
-
-            
-            Assert.Equal("shopping", parkingLot.Code);
+            Assert.Equal(0, parkingLotBeforeEnter.Result.OccupiedSpaces);
+            await enterParkingLot.Execute("shopping", "MMM-0001", DateTime.Now);
+            var parkingLotAfterEnter = getParkingLot.Execute("shopping");
+            Assert.Equal(1, parkingLotAfterEnter.Result.OccupiedSpaces);
         }
     }
 }

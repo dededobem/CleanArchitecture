@@ -10,3 +10,5 @@ C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Infra\obj\Debug\
 C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Infra\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.csproj.CopyComplete
 C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Infra\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.dll
 C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Infra\obj\Debug\netcoreapp3.1\CleanArchitecture.Infra.pdb
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Infra\bin\Debug\netcoreapp3.1\CleanArchitecture.Adapter.dll
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Infra\bin\Debug\netcoreapp3.1\CleanArchitecture.Adapter.pdb

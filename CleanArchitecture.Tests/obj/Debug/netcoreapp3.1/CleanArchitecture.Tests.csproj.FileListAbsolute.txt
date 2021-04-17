@@ -100,3 +100,5 @@ C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Tests\bin\Debug\
 C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Tests\bin\Debug\netcoreapp3.1\Moq.dll
 C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Tests\bin\Debug\netcoreapp3.1\CleanArchitecture.Infra.dll
 C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Tests\bin\Debug\netcoreapp3.1\CleanArchitecture.Infra.pdb
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Tests\bin\Debug\netcoreapp3.1\CleanArchitecture.Adapter.dll
+C:\Users\deded\source\repos\CleanArchitecture\CleanArchitecture.Tests\bin\Debug\netcoreapp3.1\CleanArchitecture.Adapter.pdb

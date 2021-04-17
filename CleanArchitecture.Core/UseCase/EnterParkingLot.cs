@@ -10,13 +10,10 @@ namespace CleanArchitecture.Core.UseCase
     public class EnterParkingLot
     {
         private readonly IParkingLotRepository _parkingLotRepository;
-        private readonly IParkedCarRepository _parkedCarRepository;
 
-        public EnterParkingLot(IParkingLotRepository parkingLotRepository, 
-            IParkedCarRepository parkedCarRepository)
+        public EnterParkingLot(IParkingLotRepository parkingLotRepository)
         {
             _parkingLotRepository = parkingLotRepository;
-            _parkedCarRepository = parkedCarRepository;
         }
 
         public async Task<ParkingLot> Execute(string code, string plate, DateTime date)
@@ -27,9 +24,9 @@ namespace CleanArchitecture.Core.UseCase
             if (!parkingLot.IsOpen(parkedCar.Date)) throw new Exception("The parking lot is closed");
             if (parkingLot.IsFull()) throw new Exception("The parking lot is full");
 
-            await _parkedCarRepository.SaveParkedCar(parkedCar.Code, parkedCar.Plate, parkedCar.Date);
+            await _parkingLotRepository.SaveParkedCar(parkedCar.Code, parkedCar.Plate, parkedCar.Date);
 
             return parkingLot;
-        }
+         }
     }
 }
