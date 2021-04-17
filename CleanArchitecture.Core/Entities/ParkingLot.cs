@@ -13,11 +13,14 @@ namespace CleanArchitecture.Core.Entities
             OccupiedSpaces = occupiedSpaces;
         }
 
+        protected ParkingLot() { }
+
+        public int Id { get; private set; }
         public string Code { get; private set; }
         public int Capacity { get; private set; }
         public int OpenHour { get; private set; }
         public int CloseHour { get; private set; }
-        public int OccupiedSpaces { get; set; }
+        public int OccupiedSpaces { get; private set; }
 
         public bool IsOpen(DateTime date) => date.Hour >= OpenHour && date.Hour <= CloseHour;
 

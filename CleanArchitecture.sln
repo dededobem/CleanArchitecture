@@ -9,17 +9,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{78890069-D03
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7EC62AAA-1136-4C0F-AB5A-CC2B83BE6776}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Tests", "CleanArchitecture.Tests\CleanArchitecture.Tests.csproj", "{3B73A06A-916C-4003-97C4-51B3070A04D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Tests", "CleanArchitecture.Tests\CleanArchitecture.Tests.csproj", "{3B73A06A-916C-4003-97C4-51B3070A04D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Core", "CleanArchitecture.Core\CleanArchitecture.Core.csproj", "{6B3B751B-CC4A-4FAA-990C-8945891FB5D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Core", "CleanArchitecture.Core\CleanArchitecture.Core.csproj", "{6B3B751B-CC4A-4FAA-990C-8945891FB5D2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infra", "infra", "{F1BFA259-9802-4F79-A0C9-BBBD6048CD6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Infra", "CleanArchitecture.Infra\CleanArchitecture.Infra.csproj", "{D3766E30-DB7E-493A-A7A5-E9E4E4FF88D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Infra", "CleanArchitecture.Infra\CleanArchitecture.Infra.csproj", "{D3766E30-DB7E-493A-A7A5-E9E4E4FF88D3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "adapter", "adapter", "{7660512B-CF11-4DFE-AFD9-B7177260B8A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Adapter", "CleanArchitecture.Adapter\CleanArchitecture.Adapter.csproj", "{27EA6FC6-E094-4126-B20C-EC9236DFDF79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Adapter", "CleanArchitecture.Adapter\CleanArchitecture.Adapter.csproj", "{27EA6FC6-E094-4126-B20C-EC9236DFDF79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "presentation", "presentation", "{21325E23-B186-40E6-8216-E49344D62FBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Presentation", "CleanArchitecture.Presentation\CleanArchitecture.Presentation.csproj", "{EC8B856E-D32F-41B7-B34F-F1C882C7FA1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,10 @@ Global
 		{27EA6FC6-E094-4126-B20C-EC9236DFDF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27EA6FC6-E094-4126-B20C-EC9236DFDF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27EA6FC6-E094-4126-B20C-EC9236DFDF79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC8B856E-D32F-41B7-B34F-F1C882C7FA1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC8B856E-D32F-41B7-B34F-F1C882C7FA1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC8B856E-D32F-41B7-B34F-F1C882C7FA1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC8B856E-D32F-41B7-B34F-F1C882C7FA1B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +63,8 @@ Global
 		{D3766E30-DB7E-493A-A7A5-E9E4E4FF88D3} = {F1BFA259-9802-4F79-A0C9-BBBD6048CD6B}
 		{7660512B-CF11-4DFE-AFD9-B7177260B8A7} = {78890069-D031-4121-BAA2-0F6C08411CCF}
 		{27EA6FC6-E094-4126-B20C-EC9236DFDF79} = {7660512B-CF11-4DFE-AFD9-B7177260B8A7}
+		{21325E23-B186-40E6-8216-E49344D62FBA} = {78890069-D031-4121-BAA2-0F6C08411CCF}
+		{EC8B856E-D32F-41B7-B34F-F1C882C7FA1B} = {21325E23-B186-40E6-8216-E49344D62FBA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CDBB2C73-CFBC-44EE-ADD1-45509747A2D8}

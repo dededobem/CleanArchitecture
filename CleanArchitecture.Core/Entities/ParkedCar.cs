@@ -15,6 +15,9 @@ namespace CleanArchitecture.Core.Entities
             Date = date;
         }
 
+        protected ParkedCar() { }
+
+        public int Id { get; private set; }
         public string Code { get; private set; }
         public string Plate { get; private set; }
         public DateTime Date { get; private set; }
