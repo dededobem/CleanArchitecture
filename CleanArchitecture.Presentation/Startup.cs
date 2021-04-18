@@ -1,4 +1,6 @@
+using CleanArchitecture.Core.Interfaces;
 using CleanArchitecture.Infra.Context;
+using CleanArchitecture.Infra.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,6 +33,8 @@ namespace CleanArchitecture.Presentation
 
             services.AddDbContext<CleanArchitectureContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("ApiConnection")));
+
+            services.AddScoped(typeof(ParkingLotRepositorySql));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
